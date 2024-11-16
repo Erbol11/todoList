@@ -1,0 +1,21 @@
+.todo-container{
+    width: 2100px;
+    height: 7100px;
+    background-color: aqua;
+    font-size: larger;
+    text-align: center;
+}
+.todoInput{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: larger;
+}
+.todoList li{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+#todoList{
+    list-style-type: none;
+}
